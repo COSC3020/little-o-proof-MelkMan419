@@ -20,7 +20,6 @@ $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
 To format the proof correctly for GitHub, you need to use Markdown syntax. Here's the proof formatted for GitHub:
 
-```markdown
 # Proof that $f(n) \in o(g(n))$ implies $f(n) \in O(g(n))$
 
 To prove that $f(n) \in o(g(n))$ implies that $f(n) \in O(g(n))$, we need to show that for any function $f(n)$ and $g(n)$, if $f(n) \in o(g(n))$, then $f(n)$ is also in $O(g(n))$.
@@ -34,6 +33,4 @@ From the definition of $o(g(n))$, we observe that it is a stricter condition tha
 Given that $f(n) \in o(g(n))$, we can choose $c' = c$ and $n_0' = n_0$ to fulfill the condition of $O(g(n))$.
 
 Therefore, $f(n) \in o(g(n))$ implies that $f(n) \in O(g(n))$.
-```
 
-This Markdown code will render correctly on GitHub, presenting the proof with proper formatting.
